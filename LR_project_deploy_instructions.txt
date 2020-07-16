@@ -1,0 +1,45 @@
+project Name:
+Admin-Pred-LR
+Project ID:
+admin-pred-lr
+Project Number:
+333302468869
+
+gcloud app deploy app.yaml --project admin-pred-lr
+
+https://admin-pred-lr.ue.r.appspot.com
+
+https://console.developers.google.com/apis/api/cloudbuild.googleapis.com/overview?project=admin-pred-lr
+
+Steps to deploy:
+
+1) install GCP SDK from:  https://dl.google.com/dl/cloudsdk/channels/rapid/GoogleCloudSDKInstaller.exe
+2) log in  https://cloud.google.com/  with credentials. Credentials used AyonAppTest@gmail.com
+3) Go to Console
+4) Go to IAM and Admin>Manage Resources
+ screenshot 1
+ 
+5)create project and save the project name, id, and #.
+6)Once the project gets created, select App Engine and select Dashboard.
+7)On the right hand panel, click Start Tutorial on the screen and select Python app and click start. 
+8)Check whether the correct project name is displayed and then click next untill you hit Finish
+----
+9) open cmd and enter the command gcloud init
+10) enter the command: cd path of the project folder ..cd C:\DSML\Regression\LR_Till_Cloud
+11) enter the command: dir to see your files
+12) enter the command: gcloud app deploy app.yaml --project <project id> for example: gcloud app deploy app.yaml --project admin-pred-lr. Your deployment starts.
+13) select Y
+14) select the number of your timezone shown that appears in cmd
+15) Meanwhile if you recieve error such as wait....copy the url given and enable your account with the card number. In this case the url was: https://console.developers.google.com/apis/api/cloudbuild.googleapis.com/overview?project=admin-pred-lr
+16) save the url of the app that will be shown in cmd.
+
+--- if your app is not deployed you can repeat the same steps once again in cmd only not in GCP
+----if deployemnt fails due to error such as:
+ Downloading MarkupSafe-1.1.1-cp38-cp38-manylinux1_x86_64.whl (32 kB)
+ERROR: Could not find a version that satisfies the requirement mkl-fft==1.1.0 (from -r requirements.txt (line 9)) (from versions: none)
+
+delete those dependancies from requirement.txt
+also update the yaml with correct pythion version such as 38 for 3.8 or 37 for 3.7
+also ensure that gunicorn==20.0.4 is listed in requirement.txt
+17) once your app is deployed as shown in cmd, enter the command: gcloud app browse
+ 

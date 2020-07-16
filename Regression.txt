@@ -1,0 +1,22 @@
+Regression model performance interpretation:
+
+https://www.youtube.com/watch?v=U7D1h5bbpcs
+
+VIF:
+
+https://www.youtube.com/watch?v=qmt7ZZoiDwc
+https://github.com/bhattbhavesh91/GA_Sessions/blob/master/ga_dsmp_5jan2019/21_variance_inflation_factor_vif_for_multicolinearity.ipynb
+
+Proof of assumptions of Linear Regression:
+
+https://towardsdatascience.com/verifying-the-assumptions-of-linear-regression-in-python-and-r-f4cd2907d4c0
+https://www.youtube.com/watch?v=rw84t7QU2O0
+
+Future study:
+https://www.youtube.com/channel/UCbdAZq799T9mxzRyGz3XYkA/playlists
+
+what is vector?
+https://towardsdatascience.com/a-practical-look-at-vectors-and-your-data-95bde21b37d1
+
+Multivariate Linear regression: 
+https://www.youtube.com/watch?v=AR9XAK131n4&list=PL3Fc8qNch2_TA33HJRrKbtBrjMN-u5n7_
